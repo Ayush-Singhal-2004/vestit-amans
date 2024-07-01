@@ -15,3 +15,8 @@
 1. Get into server directory. </br>
 2. Run 'npm install' in your terminal. </br>
 3. Run 'npm start' in your terminal. </br>
+<h1>Tech stack used :</h1>
+1. React.js </br>
+2. Tailwind CSS </br>
+3. Node.js </br>
+4. Express
