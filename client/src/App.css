@@ -1,4 +1,98 @@
+body{
+    user-select: none;
+}
+
 #home-head-section {
     background-image: url(https://images.prismic.io/ubac/ZnvIwZbWFbowe3Lu_2.jpg?auto=format%2Ccompress&rect=0%2C0%2C4320%2C2400&w=2400&q=80);
     background-size: cover;
+}
+
+.home-section3-1 {
+    background-image: url(https://images.prismic.io/ubac/Zl7G95m069VX1bnd_TESTSLIDER%2BIMAGESHOMESS24-1-.jpg?auto=format%2Ccompress&w=2400&q=80);
+    background-size: 100% 115%;
+}
+
+.home-section3-2 {
+    background-image: url(https://images.prismic.io/ubac/Zl7G85m069VX1bnc_TESTSLIDER%2BIMAGESHOMESS24-2-.jpg?auto=format%2Ccompress&w=2400&q=80);
+    background-size: 100% 115%;
+}
+
+.home-section3-3 {
+    background-image: url(https://images.prismic.io/ubac/Zl7G8Zm069VX1bnb_TESTSLIDER%2BIMAGESHOMESS24-3-.jpg?auto=format%2Ccompress&w=2400&q=80);
+    background-size: 100% 115%;
+}
+
+.home-section3-4 {
+    background-image: url(https://images.prismic.io/ubac/f2118582-1460-4cfd-b291-9dc6a46522d2_13.png?auto=compress%2Cformat&w=2400&q=80);
+    background-size: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-pagination-next{
+    position: absolute;
+    z-index: 1000;
+    left: -10%;
+}
+
+.custom-pagination-prev{
+    position: absolute;
+    z-index: 1000;
+    left: -10%;
+}
+
+
+.underline-animation {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative;
+}
+
+.underline-animation:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10px;
+    left: 50%;
+    position: absolute;
+    /* background: #fff; */
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.underline-animation:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.home-section3-sub{
+    background-color: #29292923;
 }
